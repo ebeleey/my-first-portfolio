@@ -1,0 +1,17 @@
+.contact-item {
+  display: flex;
+  gap: 10px;
+}
+
+.contact-name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.contact-icon {
+  width: 30px;
+}
+
+.contact-link {
+  flex: 1;
+}

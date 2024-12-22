@@ -1,0 +1,23 @@
+.project-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.project-item {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #e6e6e6;
+  border-radius: 15px;
+  margin: 5px;
+  width: 45%;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.project-item:hover {
+  transform: scale(1.1); /* 이미지 크기를 키우는 효과 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 그림자 추가 */
+}

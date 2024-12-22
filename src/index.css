@@ -1,0 +1,36 @@
+
+@font-face {
+  font-family: 'BagelFatOne-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_JAMO@1.0/BagelFatOne-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SungDongGothic';
+  font-style: normal;
+  font-weight: normal;
+  src: url('//fastly.jsdelivr.net/korean-webfonts/1/orgs/govs/sdgu/SungDongGothic/SungDongGothicB.woff2') format('woff2'), url('//fastly.jsdelivr.net/korean-webfonts/1/orgs/govs/sdgu/SungDongGothic/SungDongGothicB.woff') format('woff');
+}
+
+
+html, body {
+  margin: 0px;
+  width: 100%;
+  display: flex;
+}
+
+#root {
+  background-color: white;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  height: 100%;
+  padding: 0px 20px;
+}
+
+body * {
+  font-family: 'SungDongGothic';
+}
+
