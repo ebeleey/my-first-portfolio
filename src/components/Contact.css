@@ -1,6 +1,17 @@
+div {
+  width: 100%;
+}
+
+a {
+  /* text-decoration: none; */
+  color: black;
+}
+
+
 .contact-item {
   display: flex;
-  gap: 10px;
+  gap: 10px; 
+
 }
 
 .contact-name {
@@ -14,4 +25,6 @@
 
 .contact-link {
   flex: 1;
+  display: flex;
+  margin: auto;
 }

@@ -1,69 +1,38 @@
-img {
-  width: 50px;
-  background-color: white;
-  padding: 7px;
-  border: 1px solid #e6e6e6;
-  border-radius: 15px;
-  margin: 5px;
-  cursor: pointer;
+
+.skills-section {
+  width: 100%;
 }
 
-img:hover {
-  transform: scale(1.1); /* 이미지 크기를 키우는 효과 */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 그림자 추가 */
-}
 
 .skills-container {
-  padding: 2rem;
-}
-
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-  gap: 2rem;
-  max-width: 800px;
+  max-width: 56rem;  /* 4xl in Tailwind terms */
   margin: 0 auto;
 }
 
-.skill-icon {
-  width: 64px;
-  height: 64px;
-  transition: transform 0.3s ease;
-  animation: float 3s ease-in-out infinite;
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
 }
 
-.skill-icon:hover {
-  animation: spin 1s linear infinite;
+.skill-item {
+  width: 4rem;  /* equivalent to w-16 */
 }
 
-/* 부드럽게 위아래로 떠다니는 애니메이션 */
-@keyframes float {
-  0% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+.skill-image {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
-/* 마우스 호버시 회전하는 애니메이션 */
-/* @keyframes spin {
-  from {
-    transform: rotate(0deg);
+/* 반응형 디자인을 위한 미디어 쿼리 */
+@media (max-width: 640px) {
+  .skills-grid {
+    gap: 1.5rem;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .skill-item {
+    width: 3.5rem;
   }
-} */
-
-/* 각 아이콘마다 애니메이션 시작 시간을 다르게 설정 */
-.skill-icon:nth-child(1) { animation-delay: 0s; }
-.skill-icon:nth-child(2) { animation-delay: 0.2s; }
-.skill-icon:nth-child(3) { animation-delay: 0.4s; }
-.skill-icon:nth-child(4) { animation-delay: 0.6s; }
-.skill-icon:nth-child(5) { animation-delay: 0.8s; }
-.skill-icon:nth-child(6) { animation-delay: 1s; }
-.skill-icon:nth-child(7) { animation-delay: 1.2s; }
+}

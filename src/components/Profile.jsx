@@ -1,29 +1,30 @@
-import './Profile.css'
+import './Profile.css';
 import Typewriter from 'typewriter-effect';
-
 
 const Profile = () => {
   return (
-    <div>
-      <div>
-        <div style={{ textAlign: 'center', marginTop: '50px' }}>
-          <h1>
+    <div className="profile-container">
+      <div className="profile-title">
+        <p>
+          매일 한 걸음 더 나아가는 개발자,
+        </p>
+        <p>
+          <span className="typewriter-container">
             <Typewriter
               options={{
-                strings: [
-                  "프론트엔드 개발자를 꿈꾸는 이다이입니다!"
-                ],
-                autoStart: true, // 자동 시작 여부
-                loop: true, // 반복 여부
-                delay: 50, // 타이핑 속도
+                strings: ["이다이"],
+                autoStart: true,
+                loop: true,
+                delay: 200, // 타이핑 속도
+                pauseFor: 5000, // 각 줄 끝난 후 1초 동안 멈춤
               }}
             />
-          </h1>
-        </div>
+          </span>
+          입니다.
+        </p>
       </div>
-
     </div>
-  )
-}
+  );
+};
 
-export default Profile
+export default Profile;

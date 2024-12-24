@@ -1,0 +1,13 @@
+
+
+.section {
+  height: 100vh;
+  max-width: 1000px; /* 섹션의 최대 가로 크기를 제한 */
+  margin: auto; /* 섹션을 가로 중앙에 배치 */
+  padding: 0 3rem; /* 좌우 여백 추가 (반응형 디자인 고려) */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scroll-snap-align: start;
+}

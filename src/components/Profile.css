@@ -1,0 +1,20 @@
+.typewriter-container {
+  display: inline-block;
+  font-size: 60px;
+}
+
+.profile-title {
+  text-align: center;
+  font-size: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.name {
+  font-size: 50px;
+}
+
+.profile-title p {
+  margin: 0;
+}
+
