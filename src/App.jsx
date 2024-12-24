@@ -22,8 +22,8 @@ function App() {
         initial="hidden"
         whileInView="visible"
         variants={variants}
-        transition={{ duration: 0.8 }}
-        viewport={{ amount: 0.3 }}
+        transition={{ duration: 1.0 }}
+        viewport={{ amount: 0.5 }}
       >
         <Profile />
       </motion.div>
@@ -33,8 +33,8 @@ function App() {
         initial="hidden"
         whileInView="visible"
         variants={variants}
-        transition={{ duration: 0.8 }}
-        viewport={{ amount: 0.3 }}
+        transition={{ duration: 1.0 }}
+        viewport={{ amount: 0.5 }}
       >
         <Education />
       </motion.div>
@@ -44,8 +44,8 @@ function App() {
         initial="hidden"
         whileInView="visible"
         variants={variants}
-        transition={{ duration: 0.8 }}
-        viewport={{ amount: 0.3 }}
+        transition={{ duration: 1.0 }}
+        viewport={{ amount: 0.5 }}
       >
         <Skills />
       </motion.div>
@@ -55,8 +55,8 @@ function App() {
         initial="hidden"
         whileInView="visible"
         variants={variants}
-        transition={{ duration: 0.8 }}
-        viewport={{ amount: 0.3 }}
+        transition={{ duration: 1.0 }}
+        viewport={{ amount: 0.5 }}
       >
         <Projects />
       </motion.div>
@@ -66,8 +66,8 @@ function App() {
         initial="hidden"
         whileInView="visible"
         variants={variants}
-        transition={{ duration: 0.8 }}
-        viewport={{ amount: 0.3 }}
+        transition={{ duration: 1.0 }}
+        viewport={{ amount: 0.5 }}
       >
         <Contact />
       </motion.div>
