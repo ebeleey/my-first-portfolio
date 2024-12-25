@@ -22,7 +22,7 @@ function App() {
         initial="hidden"
         whileInView="visible"
         variants={variants}
-        transition={{ duration: 0.8 }}
+        transition={{ duration: 0.5 }}
         viewport={{ amount: 0.3 }}
       >
         <Profile />
@@ -33,7 +33,7 @@ function App() {
         initial="hidden"
         whileInView="visible"
         variants={variants}
-        transition={{ duration: 0.8 }}
+        transition={{ duration: 0.5 }}
         viewport={{ amount: 0.3 }}
       >
         <Education />
@@ -44,7 +44,7 @@ function App() {
         initial="hidden"
         whileInView="visible"
         variants={variants}
-        transition={{ duration: 0.8 }}
+        transition={{ duration: 0.5 }}
         viewport={{ amount: 0.3 }}
       >
         <Skills />
@@ -55,7 +55,7 @@ function App() {
         initial="hidden"
         whileInView="visible"
         variants={variants}
-        transition={{ duration: 0.8 }}
+        transition={{ duration: 0.5 }}
         viewport={{ amount: 0.3 }}
       >
         <Projects />
@@ -66,7 +66,7 @@ function App() {
         initial="hidden"
         whileInView="visible"
         variants={variants}
-        transition={{ duration: 0.8 }}
+        transition={{ duration: 0.5 }}
         viewport={{ amount: 0.3 }}
       >
         <Contact />
